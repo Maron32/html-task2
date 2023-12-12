@@ -1,0 +1,128 @@
+.body_img{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+.body_img p{
+    position: absolute;
+    top: 25px; 
+    right: 50px;
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    border-bottom: solid white 3px;
+}
+
+.body_img img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.body .title{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.body_body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.body_News-list{
+    background-color: beige;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+}
+
+.body_News-list a{
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.body_News-list h1{
+    text-align: center;
+}
+
+.body_News-list li{
+    list-style: "⚾";
+}
+
+.news-list a{
+    position: relative;
+    display: inline-block;
+}
+
+.news-list a:hover{
+    color: red;
+}
+
+.news-list li a::after {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+}
+.news-list li a:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+.Japan h1{
+    border-bottom: gainsboro solid 2px;
+}
+
+.Japan img{
+    width: 60px;
+    height: 60px;
+}
+
+.baseball h1{
+    border-bottom: gainsboro solid 2px;
+}
+
+.Japan_img{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.Japan_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Japan_text p{
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.baseball_img{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.baseball_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.baseball_text p{
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.baseball_text h3{
+    text-align: center;
+}

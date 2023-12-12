@@ -1,0 +1,19 @@
+th{
+    background-color: #ad5b32;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+td{
+    background-color: #ddc4bd;
+}
+.hituyou{
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 20%;
+    
+}
+.setumei{
+    font-size: 10px;
+}

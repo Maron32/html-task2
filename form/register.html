@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register-style.css">
+    <title>登録フォーム</title>
+</head>
+<body>
+    <form action="#" method="post">
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
+    <table>
+        <!-- (ID)メールアドレスの入力 -->
+        <tr>
+            <th>ID <span class="hituyou" >必須</span>
+            <span class="setumei">(メールアドレス)</span></th>
+            <td><input type="email" name="ID" placeholder="例：xxx@morijyobi.ac.jp" required></td>
+        </tr>
+        <!-- passwordの入力 -->
+        <tr>
+            <th>パスワード<span class="hituyou">必須</span>
+            <span class="setumei">(半角英数８文字以上)</span></th>
+            <td><input type="password" name="minlength" minlength="8" required>
+                <input type="checkbox" name="kakunin">パスワードを表示する</td>
+        </tr>
+        <!-- 氏名の入力 -->
+        <tr>
+            <th>氏名 <span class="hituyou">必須</span></th>
+            <td>姓 : <input type="text" name="name" placeholder="例：盛岡" required>
+            名 : <input type="text" name="name" placeholder="例：太郎" required></td>
+        </tr>
+        <!-- 住所の入力 -->
+        <tr>
+            <th>住所</th>
+            <td>〒 : <input type="text" name="maxlength" maxlength="8" value="020-0021" readonly><br>
+            <input type="text" name="address" value="岩手県盛岡市中央通り３丁目" readonly><br>
+            <input type="text" name="address" placeholder="番地"><br>
+            <input type="text" name="address" placeholder="建物名"></td>
+        </tr>
+        <!-- 携帯番号 -->
+        <tr>
+            <th>携帯電話番号<span class="hituyou">必須</span>
+            <span class="setumei">ハイフンなし</span></th>
+            <td><input type="tel" required></td>
+        </tr>
+        <!-- 学科・学年 -->
+        <tr>
+            <th>学科・学年<span class="hituyou">必須</span></th>
+            <td>学科 : 
+                <select name="blood_type" required>
+                    <option value="">選択してください</option>
+                    <option value="システム系学科">システム系学科</option>
+                    <option value="ビジネス系学科">ビジネス系学科</option>
+                    <option value="デザイン系学科">デザイン系学科</option>
+                </select>
+                学年 : 
+                <select name="blood_type" required>
+                    <option value="">選択してください</option>
+                    <option value="1年">1年</option>
+                    <option value="2年">2年</option>
+                    <option value="3年">3年</option>
+                    <option value="4年">4年</option>
+                </select>
+            </td>
+        </tr>
+        <!-- Information -->
+        <tr>
+            <th>お得な情報・クーポン<span class="hituyou">必須</span></th>
+            <td><label><input type="radio" name="recive" required>受け取る</label>
+                <label><input type="radio" name="recive">受け取らない</label>
+            </td>
+        </tr>
+        <!-- ご意見 -->
+        <tr>
+            <th>ご意見・ご要望<br><span class="setumei">(200文字以内でご記入ください)</span></th>
+            <td><textarea name="maxlength" cols="50" rows="10" maxlength="200"></textarea></td>
+        </tr>
+    </table>
+    <button type="reset">入力内容をクリアする</button>
+    <button type="submit">送信</button>
+    </form>
+</body>
+</html> 

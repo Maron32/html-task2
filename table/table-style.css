@@ -1,0 +1,21 @@
+
+table,th,td{
+    border:solid 2px black ;
+    border-collapse: collapse;
+}
+
+td{
+    width: 25%;
+}
+
+body{
+    background-color: aquamarine;
+}
+table{
+    width: 50%;
+}
+img{
+    width: 150px;
+    width: 150px;
+}
+

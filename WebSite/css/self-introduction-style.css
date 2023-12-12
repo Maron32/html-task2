@@ -1,0 +1,27 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★"; 
+}
+
+.body_img{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+.body_img img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item{
+    width: 60%;
+    margin: 20px;
+}
+.mark-list .item li{
+    border-bottom: solid gainsboro 2px;
+}
