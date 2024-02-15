@@ -1,0 +1,24 @@
+.body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.body h1{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.topic{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.topic p{
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+.topic h2{
+    margin-top: 40px;
+}

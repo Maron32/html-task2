@@ -1,0 +1,51 @@
+.main-img{
+    width: 100%;
+    height: 600px;
+}
+
+.main-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-body h1{
+    text-align: center;
+    margin: 50px 0 ;
+}
+
+.MEMBER-list{
+    width: 80%;
+    margin: 0 auto 100px;
+}
+
+.MEMBER-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.MEMBER-list li{
+    margin: 30px;
+}
+
+.MEMBER-list .img{
+    width: 200px;
+    height: 200px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img p{
+    text-align: center;
+}
